@@ -17,7 +17,7 @@
     print_r(getdate());
 
     $variablePorto=getdate();
-    $variablePorto['weekday'];
+    
     $variablePorto['mday'];
     $variablePorto['mon'];
     $variablePorto['hours'];
@@ -27,11 +27,13 @@
     
 
     echo "Muestra la fecha y hora actual en Oporto formateada en (día de la semana, día de 
-    mes de año, hh:mm:ss , Zona horaria). " ;
+    mes de año, hh:mm:ss , Zona horaria). ", $variablePorto['weekday'] ;
     
     //date con la e mira la franja horaria
     //donde ayer
     //cambio
+
+
 ?>    
 
     
