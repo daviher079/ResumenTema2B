@@ -1,0 +1,6 @@
+<?
+    
+
+    $pruebas=$_GET['valor'];
+
+?>
