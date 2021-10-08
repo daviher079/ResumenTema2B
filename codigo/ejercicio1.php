@@ -30,6 +30,7 @@
     mes de año, hh:mm:ss , Zona horaria). " ;
     
     //date con la e mira la franja horaria
+    //donde ayer
 ?>    
 
     
