@@ -22,7 +22,7 @@
     $variablePorto['mon'];
     $variablePorto['hours'];
     $variablePorto['minutes'];
-    $variablePorto['seconds'];
+    //$variablePorto['seconds'];
 
     
 
@@ -32,6 +32,7 @@
     //date con la e mira la franja horaria
     //donde ayer
     //cambio
+    //cambio domingo
 
 
 ?>    
