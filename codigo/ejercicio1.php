@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <h1>Ejercicio 1 David Vicente</h1>
+        <h1>Ejercicio 1 David Vicenteb</h1>
     </header>
 
     <main>
@@ -43,6 +43,21 @@
     $sesentaDiasDespues= date('d-m-y h:i:s', strtotime("+60 days"));//La función strtotime() se le puede sumar cualquier parametro de tiempo a la fecha actual 
 
     echo "<h2 class='resultado'>g. Calcular la fecha y el día de la semana de dentro de 60 días. ", $sesentaDiasDespues,"</h2>";
+
+
+    $variablePorto=getdate();
+    
+    echo "e. Muestra la fecha y hora actual en Oporto formateada en (día de la semana, día de 
+    mes de año, hh:mm:ss , Zona horaria). ", 
+    $variablePorto['weekday'],", ", $variablePorto['mday'],". ", 
+    $variablePorto['month'],". A las ",$variablePorto['hours'],":", 
+    $variablePorto['minutes'],":", $variablePorto['seconds'],"<br/>";
+
+    date_default_timezone_set("Europe/Madrid");
+    
+    $sesentaDiasDespues= date('d-m-y h:i:s', strtotime("+60 days"));
+
+    echo "g. Calcular la fecha y el día de la semana de dentro de 60 días. ", $sesentaDiasDespues;
 
 
 ?>    

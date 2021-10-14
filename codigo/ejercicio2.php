@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,7 +67,7 @@ if(is_string($variable))
             $pagina=basename($_SERVER['SCRIPT_FILENAME']);
             echo $pagina;
         ?>"><img src="../web-root/img/gafas-de-sol.png" height="100px"></a>
-        <p>© David Vicente</p>
+        <p>© David Vicenteb</p>
         <a href="../index.html" class="volver"><img src="../web-root/img/volver.png" height="50px"></a>
     </footer>
     
@@ -81,5 +82,9 @@ if(is_string($variable))
 </html>
 
 
+<?
+    
 
+    $pruebas=$_GET['valor'];
 
+?>
