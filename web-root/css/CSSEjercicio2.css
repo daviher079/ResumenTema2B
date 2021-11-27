@@ -1,0 +1,61 @@
+header
+{
+    background-color: brown;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1
+{
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+
+
+main
+{
+    
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.resultado
+{
+    padding-bottom: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+}
+
+.volver
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+footer
+{
+    position: fixed;
+    bottom: 0;
+    background-color: brown;
+}
+
+footer p
+{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}

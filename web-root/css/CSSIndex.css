@@ -1,0 +1,68 @@
+header
+{
+    background-color: brown;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1
+{
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+
+
+main
+{
+    display: flex;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.boton
+{
+    margin-right: 30px;
+    padding: 30px;
+    background-color: teal;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton a
+{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+
+
+
+footer
+{
+    position: fixed;
+    bottom: 0;
+    background-color: brown;
+}
+
+footer p
+{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
